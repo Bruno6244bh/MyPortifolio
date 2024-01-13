@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bruno's Page</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/home.css">
+    <!-- Box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    
+    <!-- Animated Background -->
     <div class="circles">
         <img src="../img/htmlIcon.png" alt="html-icon">
         <img src="../img/gitIcon.png" alt="git-icon">
@@ -22,7 +25,42 @@
         <img src="../img/cssIcon.png" alt="css-icon">
     </div>
 
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">Bruno H.</a>
 
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="../html/home.html" class="active">Home</a>
+            <a href="../html/about.html">About</a>
+            <a href="#education">Education</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Olá, eu sou <spam>Bruno Henrique</spam></h1>
+            <div class="text-animate">
+                <h3>Frontend Developer</h3>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, perspiciatis laboriosam deleniti magnam dolores commodi vero libero pariatur voluptatibus sed qui at itaque numquam. Dicta, odit id.</p>
+            <div class="btn-box">
+                <a href="#" class="btn">Saiba mais</a>
+                <a href="#" class="btn">Contato</a>
+            </div>
+
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/bruno6244-bh/"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://github.com/Bruno6244bh"><i class='bx bxl-github' ></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="home.js"></script>
 </body>
 </html>
 
