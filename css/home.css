@@ -83,8 +83,8 @@
 
 .circles img:nth-child(8) {
     left: 50%;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     animation-delay: 15s;
     animation-duration: 45s;
 }
