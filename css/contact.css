@@ -1,7 +1,7 @@
 .contact {
     width: 100vw;
     height: 100vh;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 7rem;
 }
 .btn-box {
@@ -78,6 +78,8 @@
 .contact form .btn-box.btns .btn {
     cursor: pointer;
 }
+
+
 
 
 

@@ -1,7 +1,7 @@
 .skills {
     width: 100vw;
     height: 100vh;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 7rem;
     background: var(--second-bg-color);
 }
@@ -108,6 +108,7 @@
 /* .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
     width: 100%;
 } */
+
 
 
 
