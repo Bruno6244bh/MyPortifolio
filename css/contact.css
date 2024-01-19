@@ -79,6 +79,12 @@
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    section {
+        margin-top: 5rem;
+    }
+}
+
 
 
 

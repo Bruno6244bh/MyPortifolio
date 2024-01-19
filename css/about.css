@@ -2,7 +2,7 @@
 .about {
     width: 100vw;
     height: 100vh;
-    padding-top: 10%;
+    padding-top: 7%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -40,6 +40,13 @@
     border-bottom: .2rem solid var(--second-bg-color);
     border-left: .2rem solid var(--main-color);
     border-right: .2rem solid var(--main-color);
+    animation: aboutSpinner 8s linear infinite;
+}
+
+@keyframes aboutSpinner {
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
 }
 
 .about-content {
@@ -53,6 +60,7 @@
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    padding: 0 20% 0 20%;
 }
 
 .btn-box.btns {
@@ -62,4 +70,10 @@
 
 .btn-box.btns a::before {
     background: var(--second-bg-color);
+}
+
+@media (max-width: 1200px) {
+    section {
+        margin-top: 5rem;
+    }
 }
